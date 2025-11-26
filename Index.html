@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>النادي العلمي – ثانوية أحمد كندي</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* -------------------------------
+   GLOBAL DARK SCI-FI THEME
+-------------------------------- */
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: #060b13;
+    color: #e4f3ff;
+    overflow-x: hidden;
+}
+
+.science-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:
+      radial-gradient(circle at 20% 30%, rgba(0,255,200,0.08), transparent 60%),
+      radial-gradient(circle at 80% 70%, rgba(0,150,255,0.1), transparent 60%);
+    z-index: -1;
+    animation: glow 6s infinite alternate ease-in-out;
+}
+
+@keyframes glow {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(1.3); }
+}
+
+/* -------------------------------
+   HEADER
+-------------------------------- */
+header {
+    padding: 70px 20px;
+    text-align: center;
+    background: #0b1627;
+    border-bottom: 1px solid #00eaff55;
+    box-shadow: 0 0 20px #00eaff44;
+}
+
+header h1 {
+    color: #00eaff;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px #00eaff;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* -------------------------------
+   HERO SECTION
+-------------------------------- */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #7efaff;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    opacity: 0.85;
+}
+
+.hero img {
+    width: 230px;
+    margin-top: 20px;
+    animation: float 4s infinite ease-in-out;
+}
+
+@keyframes float {
+    50% { transform: translateY(-12px); }
+}
+
+/* -------------------------------
+   FEATURES SECTION
+-------------------------------- */
+.features {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.feature-box {
+    background: #0f1a2c;
+    border: 1px solid #00eaff33;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,255,255,0.1);
+}
+
+.feature-box h3 {
+    color: #00eaff;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    opacity: 0.85;
+}
+
+/* -------------------------------
+   CALL TO ACTION BUTTON
+-------------------------------- */
+.cta {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(135deg, #00eaff, #00ff95);
+    color: #003;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 30px #00fff288;
+}
+
+.cta a:hover {
+    filter: brightness(1.2);
+}
+
+/* -------------------------------
+   FOOTER
+-------------------------------- */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #60caff;
+    opacity: .8;
+    margin-top: 50px;
+}
+
+/* -------------------------------
+   MOBILE RESPONSIVE
+-------------------------------- */
+@media (max-width: 600px) {
+    header h1 { font-size: 30px; }
+    hero h2 { font-size: 26px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="science-bg"></div>
+
+<header>
+    <h1>🔬 النادي العلمي – ثانوية أحمد كندي</h1>
+    <p>اكتشف، تعلم، عبّر عن فضولك العلمي!</p>
+</header>
+
+<section class="hero">
+    <h2>مرحباً بك في عالم الإبداع العلمي</h2>
+    <p>انضم إلى النادي العلمي لتعيش تجربة علمية ممتعة تشمل: التجارب، الروبوتات، الفلك، الكيمياء، والمشاريع الإبداعية.</p>
+    <img src="https://i.ibb.co/ZmZ0t4G/dna.png">
+</section>
+
+<section class="features">
+
+    <div class="feature-box">
+        <h3>🧪 تجارب علمية حيّة</h3>
+        <p>نجري تجارب ممتعة في الكيمياء، البيولوجيا، الفيزياء، مع شرح مبسط وممتع.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>🤖 مشاريع وورش عمل</h3>
+        <p>تعلم الروبوتات، الإلكترونيات، البرمجة، والطباعة ثلاثية الأبعاد.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>🔭 أنشطة فلك وفضاء</h3>
+        <p>مراقبة السماء، التعرف على النجوم، استخدام التلسكوب، فهم الكون.</p>
+    </div>
+
+</section>
+
+<div class="cta">
+    <a href="register.html">سجّل الآن</a>
+</div>
+
+<footer>
+ثانوية أحمد كندي • السنة الدراسية 2024/2025 • جميع الحقوق محفوظة  
+</footer>
+
+</body>
+</html>
